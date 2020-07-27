@@ -1,5 +1,7 @@
 # CARRA Pediatric Rheumatology COVID-19 Database
 
+[![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0) 
+
 This repository contains the CRFs, Codebook, and Data Dictionary for the CARRA COVID-19 Global Pediatric Rheumatology Database.
 
 To obtain your own copy, either download from GitHub or 
@@ -12,8 +14,6 @@ For support and to report issues please email our [help desk](prcovid19@ihlchip.
 
 
 # About The CARRA COVID-19 Global Pediatric Rheumatology Database
-
-[![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0) 
  
 The CARRA-sponsored [COVID-19 Global Pediatric Rheumatology Database](https://carragroup.org/research-registry/projects/covid-19-global-pediatric-rheumatology-database) is now live! This is a new, online COVID-19 database for all pediatric patients with rheumatic and related autoimmune diseases.
 
