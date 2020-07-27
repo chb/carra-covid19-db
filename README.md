@@ -1,5 +1,14 @@
 # CARRA Pediatric Rheumatology COVID-19 Database
 
+This repository contains the CRFs, Codebook, and Data Dictionary for the CARRA COVID-19 Global Pediatric Rheumatology Database.
+
+To obtain your own copy, either download from GitHub or 
+
+```!shell
+$ git clone https://github.com/chb/carra-covid19-db.git
+```
+
+For support and to report issues please email our [help desk](prcovid19@ihlchip.atlassian.net).
 
 
 # About The CARRA COVID-19 Global Pediatric Rheumatology Database
