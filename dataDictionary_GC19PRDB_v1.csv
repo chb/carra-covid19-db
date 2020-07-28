@@ -1,0 +1,590 @@
+﻿formName,varName,varDescription,answerCode,answerDescription,answerType
+FULLSURVEY,SUBJAGE,Age in whole years of subject at the time of detection of novel coronavirus infection (SARS-CoV-2) or development of COVID-19 illness,,[Age in whole years of subject at the time of detection of novel coronavirus infection (SARS-CoV-2) or development of COVID-19 illness],Number Box (Integer)
+FULLSURVEY,SEVERITY,Please indicate the most extreme level of illness that the patient has so far experienced from COVID-19 ,0, Asymptomatic: No signs or symptoms of COVID-19. Laboratory evidence only of SARS-CoV-2 infection ,radio
+FULLSURVEY,SEVERITY,Please indicate the most extreme level of illness that the patient has so far experienced from COVID-19 ,1, Mild: no interventions,radio
+FULLSURVEY,SEVERITY,Please indicate the most extreme level of illness that the patient has so far experienced from COVID-19 ,2, Moderate: some treatment or clinical action taken,radio
+FULLSURVEY,SEVERITY,Please indicate the most extreme level of illness that the patient has so far experienced from COVID-19 ,3, Severe but not immediately life-threatening: hospitalization and treatments,radio
+FULLSURVEY,SEVERITY,Please indicate the most extreme level of illness that the patient has so far experienced from COVID-19 ,4, Life-threatening consequences: intensive-care level or similar therapy has been required (CTCAE Grade 4) ,radio
+FULLSURVEY,SEVERITY,Please indicate the most extreme level of illness that the patient has so far experienced from COVID-19 ,5, Death (CTCAE Grade 5)  ,radio
+FULLSURVEY,DEATHDTC,Date of death,,[Date of death],Date Box
+FULLSURVEY,OUTCOME,Please indicate the current outcome of illness related to COVID-19,1, Recovering or resolving ,radio
+FULLSURVEY,OUTCOME,Please indicate the current outcome of illness related to COVID-19,2, Fully recovered or resolved ,radio
+FULLSURVEY,OUTCOME,Please indicate the current outcome of illness related to COVID-19,3, Not yet recovering or resolving ,radio
+FULLSURVEY,OUTCOME,Please indicate the current outcome of illness related to COVID-19,99, Unknown  ,radio
+FULLSURVEY,RESOLUDT,Date of resolution of COVID-19 related symptoms,,[Date of resolution of COVID-19 related symptoms],Date Box
+FULLSURVEY,PROBLM___1,Please indicate any problems or sequelae the subject experienced that may be related to COVID-19 illness,1, Minor or short-term disability or incapacity,checkbox
+FULLSURVEY,PROBLM___ 2,Please indicate any problems or sequelae the subject experienced that may be related to COVID-19 illness,1, Prolonged hospitalization ,checkbox
+FULLSURVEY,PROBLM___ 3,Please indicate any problems or sequelae the subject experienced that may be related to COVID-19 illness,1, Significant or persistent disability or incapacity ,checkbox
+FULLSURVEY,PROBLM___ 4,Please indicate any problems or sequelae the subject experienced that may be related to COVID-19 illness,1, Congenital anomaly or birth defect ,checkbox
+FULLSURVEY,PROBLM___ 98,Please indicate any problems or sequelae the subject experienced that may be related to COVID-19 illness,1, Other important problem,checkbox
+FULLSURVEY,PROBLMSPY,Specify: Other problems or sequelae,,[Specify: Other problems or sequelae],text
+FULLSURVEY,PREMEDSX,Were any medications that the patient takes for their rheumatic/autoimmune disease stopped or modified PRIOR TO recognized onset of SARS-CoV-2 infection orCOVID-19 illness?,1, Yes ,radio
+FULLSURVEY,PREMEDSX,Were any medications that the patient takes for their rheumatic/autoimmune disease stopped or modified PRIOR TO recognized onset of SARS-CoV-2 infection orCOVID-19 illness?,0, No ,radio
+FULLSURVEY,PREMEDSX,Were any medications that the patient takes for their rheumatic/autoimmune disease stopped or modified PRIOR TO recognized onset of SARS-CoV-2 infection orCOVID-19 illness?,99, Unknown  ,radio
+FULLSURVEY,POMEDSX,Were any medications that the patient takes for their rheumatic/autoimmune disease stopped or modified AFTER recognized onset of SARS-CoV-2 infection or COVID-19 illness?,1, Yes ,radio
+FULLSURVEY,POMEDSX,Were any medications that the patient takes for their rheumatic/autoimmune disease stopped or modified AFTER recognized onset of SARS-CoV-2 infection or COVID-19 illness?,0, No ,radio
+FULLSURVEY,POMEDSX,Were any medications that the patient takes for their rheumatic/autoimmune disease stopped or modified AFTER recognized onset of SARS-CoV-2 infection or COVID-19 illness?,99, Unknown  ,radio
+FULLSURVEY,COVID19_STATUS,COVID19_STATUS,,[COVID19_STATUS],calc
+FULLSURVEY,SEVERITY_STATUS,SEVERITY_STATUS,,[SEVERITY_STATUS],calc
+FULLSURVEY,CMPLCTNS_FLTR,"Did the patient experience any serious complications from COVID-19 illness, including secondary infections such as influenza, sepsis and other serious infections, major organ involvement (e.g. acute respiratory distress syndrome, myocarditis or cardiac involvement), Cytokine Release Syndrome/MAS, etc.",1, Yes ,radio
+FULLSURVEY,CMPLCTNS_FLTR,"Did the patient experience any serious complications from COVID-19 illness, including secondary infections such as influenza, sepsis and other serious infections, major organ involvement (e.g. acute respiratory distress syndrome, myocarditis or cardiac involvement), Cytokine Release Syndrome/MAS, etc.",0, No ,radio
+FULLSURVEY,CMPLCTNS_FLTR,"Did the patient experience any serious complications from COVID-19 illness, including secondary infections such as influenza, sepsis and other serious infections, major organ involvement (e.g. acute respiratory distress syndrome, myocarditis or cardiac involvement), Cytokine Release Syndrome/MAS, etc.",99, Unknown  ,radio
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,1, Acute respiratory distress syndrome (ARDS) ,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,2, Sepsis ,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,3, Influenza co-infection ,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,4, Other co-infection or secondary infection ,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,5, Myocarditis or heart failure ,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,6, Cytokine release syndrome,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,7, Hemolytic anemia ,select
+FULLSURVEY,CMPLCTNS_DTL,Please indicate if the patient has had any significant complications of COVID-19 illness,98, Other significant complication  ,select
+FULLSURVEY,COINFTON_SPY,Specify: other co-infection or secondary infection,,[Specify: other co-infection or secondary infection],notes
+FULLSURVEY,CPLCNSPY,Specify other significant complication,,[Specify other significant complication],notes
+FULLSURVEY,SEX,Sex of patient,1, Male ,radio
+FULLSURVEY,SEX,Sex of patient,2, Female ,radio
+FULLSURVEY,SEX,Sex of patient,98, Other  ,radio
+FULLSURVEY,GENDERID,Gender identity of patient,MALE_GID, Male identity ,radio
+FULLSURVEY,GENDERID,Gender identity of patient, FEMALE_GID, Female identity ,radio
+FULLSURVEY,GENDERID,Gender identity of patient, TRANSMALE_GID, Trans Male/Trans Man ,radio
+FULLSURVEY,GENDERID,Gender identity of patient, TRANSFEMALE_GID, Trans Female/Trans Woman ,radio
+FULLSURVEY,GENDERID,Gender identity of patient, GENDERQUEER_GID, Genderqueer/Gender non-conforming ,radio
+FULLSURVEY,GENDERID,Gender identity of patient, OTHER_GID, Different/other gender identity  ,radio
+FULLSURVEY,BRTHDAT,Date of birth,,[Date of birth],Date Box
+FULLSURVEY,AGE_INITL,Age (in years) at initial symptoms of COVID-19 illness,,[Age (in years) at initial symptoms of COVID-19 illness],Number Box (Integer)
+FULLSURVEY,AGE_ASYM,Age (in years) at asymptomatic SARS-CoV-2 infection,,[Age (in years) at asymptomatic SARS-CoV-2 infection],Number Box (Integer)
+FULLSURVEY,ASYMDT_COVID_MM,Month,UNK, UNK ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, JAN, January ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, FEB, February ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, MAR, March ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, APR, April ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, MAY, May ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, JUN, June ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, JUL, July ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, AUG, August ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, SEP, September ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, OCT, October ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, NOV, November ,select
+FULLSURVEY,ASYMDT_COVID_MM,Month, DEC, December  ,select
+FULLSURVEY,ASYMDT_COVID__YYYY,Year,2019,2019,radio
+FULLSURVEY,ASYMDT_COVID__YYYY,Year,2020,2020,radio
+FULLSURVEY,COVSMPDT,Date of initial symptoms of COVID-19 illness,,[Date of initial symptoms of COVID-19 illness],Date Box
+FULLSURVEY,COVIDXDT,Date of diagnosis of COVID-19 illness,,[Date of diagnosis of COVID-19 illness],Date Box
+FULLSURVEY,covid_infection___1,Infection Acquisition: In the 14 days before onset of illness did the patient have any of the following? (Check all that apply),1, History of travel to an area with documented cases of COVID-19 infection ,checkbox
+FULLSURVEY,covid_infection___ 2,Infection Acquisition: In the 14 days before onset of illness did the patient have any of the following? (Check all that apply),1, Close contact with a confirmed or probable case of COVID-19 infection ,checkbox
+FULLSURVEY,covid_infection___ 3,Infection Acquisition: In the 14 days before onset of illness did the patient have any of the following? (Check all that apply),1, Presence in a healthcare facility where COVID-19 infections have been managed ,checkbox
+FULLSURVEY,covid_infection___ 4,Infection Acquisition: In the 14 days before onset of illness did the patient have any of the following? (Check all that apply),1, None of the above (community acquired) ,checkbox
+FULLSURVEY,covid_infection___ 99,Infection Acquisition: In the 14 days before onset of illness did the patient have any of the following? (Check all that apply),1, Unknown ,checkbox
+FULLSURVEY,covid_infection___ 98,Infection Acquisition: In the 14 days before onset of illness did the patient have any of the following? (Check all that apply),1, Other  ,checkbox
+FULLSURVEY,covid_inf_spy,"COVID-19 other infection acquisition, please specify. Please DO NOT include any patient or family names or other direct identifiers (may include dates)",,"[COVID-19 other infection acquisition, please specify. Please DO NOT include any patient or family names or other direct identifiers (may include dates)]",notes
+FULLSURVEY,covid_dxloc___5,COVID-19 Diagnosis: Location,1, Hospital or other inpatient facility ,checkbox
+FULLSURVEY,covid_dxloc___ 3,COVID-19 Diagnosis: Location,1, Outpatient facility ,checkbox
+FULLSURVEY,covid_dxloc___ 4,COVID-19 Diagnosis: Location,1, Emergency department ,checkbox
+FULLSURVEY,covid_dxloc___ 1,COVID-19 Diagnosis: Location,1, Home or mobile/drive-through (standalone) testing ,checkbox
+FULLSURVEY,covid_dxloc___ 6,COVID-19 Diagnosis: Location,1, Other ,checkbox
+FULLSURVEY,covid_dxloc___ 7,COVID-19 Diagnosis: Location,1, Unknown  ,checkbox
+FULLSURVEY,TSPRES,What is the basis for diagnosis of COVID-19 illness?,1, Presumptive diagnosis based on signs and symptoms only ,radio
+FULLSURVEY,TSPRES,What is the basis for diagnosis of COVID-19 illness?,2, Probable or confirmatory testing,radio
+FULLSURVEY,TSPRES,What is the basis for diagnosis of COVID-19 illness?,99, Unsure  ,radio
+FULLSURVEY,TESTSPY,,,[],notes
+FULLSURVEY,TESTSPY,,,[TESTSPY],notes
+FULLSURVEY,TSRADIOIM___1,,1, CT scan (conventional) ,checkbox
+FULLSURVEY,TSRADIOIM___ 2,,1, High-resolution CT scan ,checkbox
+FULLSURVEY,TSRADIOIM___ 3,,1, CT-PET scan ,checkbox
+FULLSURVEY,TSRADIOIM___ 4,,1, MRI ,checkbox
+FULLSURVEY,TSRADIOIM___ 5,,1, Nuclear scan ,checkbox
+FULLSURVEY,TSRADIOIM___ 6,,1, Plain radiographs (X-rays) ,checkbox
+FULLSURVEY,TSRADIOIM___ 7,,1, Ultrasound ,checkbox
+FULLSURVEY,TSRADIOIM___ 98,,1, Other imaging  ,checkbox
+FULLSURVEY,TSLAB_CONF___1,,1, PCR testing ,checkbox
+FULLSURVEY,TSLAB_CONF___ 2,,1, Metagenomic testing ,checkbox
+FULLSURVEY,TSLAB_CONF___ 3,,1, Antibody testing ,checkbox
+FULLSURVEY,TSLAB_CONF___ 98,,1, Other laboratory testing  ,checkbox
+FULLSURVEY,TSLAB_PROB___1,,1, PCR testing ,checkbox
+FULLSURVEY,TSLAB_PROB___ 2,,1, Metagenomic testing ,checkbox
+FULLSURVEY,TSLAB_PROB___ 3,,1, Antibody testing ,checkbox
+FULLSURVEY,TSLAB_PROB___ 98,,1, Other laboratory testing  ,checkbox
+FULLSURVEY,COVIDLABSPY,"Specify other COVID-19 diagnostic laboratory results. Please indicate if results are confirmed or probable, if this is known.",,"[Specify other COVID-19 diagnostic laboratory results. Please indicate if results are confirmed or probable, if this is known.]",notes
+FULLSURVEY,RADIOIMSPY,Specify other COVID-19 diagnostic imaging,,[Specify other COVID-19 diagnostic imaging],notes
+FULLSURVEY,covid_features___1,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Fever,checkbox
+FULLSURVEY,covid_features___ 4,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Cough (productive or nonproductive) ,checkbox
+FULLSURVEY,covid_features___ 24,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Hemoptysis ,checkbox
+FULLSURVEY,covid_features___ 3,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Sore throat/pharyngitis ,checkbox
+FULLSURVEY,covid_features___ 11,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Runny nose/rhinorrhea ,checkbox
+FULLSURVEY,covid_features___ 18,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Conjunctivitis ,checkbox
+FULLSURVEY,covid_features___ 16,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Ear pain ,checkbox
+FULLSURVEY,covid_features___ 14,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Anosmia or hyposmia (loss or significant diminution of smell) ,checkbox
+FULLSURVEY,covid_features___ 15,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Dysgeusia or hypogeusia (loss or significant diminution of taste) ,checkbox
+FULLSURVEY,covid_features___ 17,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Wheezing ,checkbox
+FULLSURVEY,covid_features___ 5,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Shortness of breath/dyspnea ,checkbox
+FULLSURVEY,covid_features___ 7,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Muscle aches/myalgia ,checkbox
+FULLSURVEY,covid_features___ 6,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Joint pain/arthralgia ,checkbox
+FULLSURVEY,covid_features___ 8,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Chest pain ,checkbox
+FULLSURVEY,covid_features___ 13,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Fatigue and/or malaise ,checkbox
+FULLSURVEY,covid_features___ 2,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Headache ,checkbox
+FULLSURVEY,covid_features___ 12,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Altered mental status,checkbox
+FULLSURVEY,covid_features___ 19,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Seizures ,checkbox
+FULLSURVEY,covid_features___ 9,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Abdominal pain ,checkbox
+FULLSURVEY,covid_features___ 21,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Vomiting ,checkbox
+FULLSURVEY,covid_features___ 20,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Diarrhea ,checkbox
+FULLSURVEY,covid_features___ 22,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Skin rash ,checkbox
+FULLSURVEY,covid_features___ 23,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Skin ulceration ,checkbox
+FULLSURVEY,covid_features___ 25,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Lymphadenopathy ,checkbox
+FULLSURVEY,covid_features___ 98,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Other ,checkbox
+FULLSURVEY,covid_features___ 99,Clinical signs and/or symptoms during COVID-19 illness(leave unchecked for 'None'),1, Unknown  ,checkbox
+FULLSURVEY,covid_features_other,Specify other clinical signs and/or symptoms:,,[Specify other clinical signs and/or symptoms:],notes
+FULLSURVEY,HIDEMSG_STATUS,HIDEMSG_STATUS,,[HIDEMSG_STATUS],calc
+FULLSURVEY,ASYM_COVTR_DES,"Based upon the subject's severity level that you have reported, this section can be skipped. Please click 'Next' to proceed.",,Header Section,descriptive
+FULLSURVEY,TREAT,Did the patient receive any treatment for COVID-19 illness?,1, Yes ,radio
+FULLSURVEY,TREAT,Did the patient receive any treatment for COVID-19 illness?,0, No ,radio
+FULLSURVEY,TREAT,Did the patient receive any treatment for COVID-19 illness?,99, Unsure  ,radio
+FULLSURVEY,RECTREAT___1,In which settings did the patient receive treatment for COVID-19 illness:,1, At home ,checkbox
+FULLSURVEY,RECTREAT___ 2,In which settings did the patient receive treatment for COVID-19 illness:,1, Ambulatory (e.g. in clinic,checkbox
+FULLSURVEY,RECTREAT___ 3,In which settings did the patient receive treatment for COVID-19 illness:,1, Hospital (e.g. observation stay,checkbox
+FULLSURVEY,RECTREAT___ 99,In which settings did the patient receive treatment for COVID-19 illness:,1, Unknown  ,checkbox
+FULLSURVEY,MEDTREAT,Did the patient receive any medications for treatment of COVID-19 illness?,1, Yes ,radio
+FULLSURVEY,MEDTREAT,Did the patient receive any medications for treatment of COVID-19 illness?,0, No ,radio
+FULLSURVEY,MEDTREAT,Did the patient receive any medications for treatment of COVID-19 illness?,99, Unknown  ,radio
+FULLSURVEY,covid_treat___1,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Remdesivir ,checkbox
+FULLSURVEY,covid_treat___ 2,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Lopinavir/ritonavir ,checkbox
+FULLSURVEY,covid_treat___ 3,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Anti-malarials (e.g. chloroquine,checkbox
+FULLSURVEY,covid_treat___ 11,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, IL-1 inhibitors (e.g. anakinra,checkbox
+FULLSURVEY,covid_treat___ 4,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, IL-6 inhibitors (e.g. tocilizumab,checkbox
+FULLSURVEY,covid_treat___ 5,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Bevacizumab ,checkbox
+FULLSURVEY,covid_treat___ 6,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, JAK inhibitors (e.g. tofacitinib,checkbox
+FULLSURVEY,covid_treat___ 7,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Serpin inhibitors ,checkbox
+FULLSURVEY,covid_treat___ 8,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Ciclesonide ,checkbox
+FULLSURVEY,covid_treat___ 9,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Glucocorticoids ,checkbox
+FULLSURVEY,covid_treat___ 12,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, IVIG (intravenous immunoglobulin,checkbox
+FULLSURVEY,covid_treat___ 21,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Favipiravir ,checkbox
+FULLSURVEY,covid_treat___ 22,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Oseltamivir ,checkbox
+FULLSURVEY,covid_treat___ 23,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Azithromycin ,checkbox
+FULLSURVEY,covid_treat___ 10,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Plasma from recovered patients ,checkbox
+FULLSURVEY,covid_treat___ 98,Medications given for COVID-19 illness: (Only include medications given as treatment for this infection. Treatments for underlying rheumatic/autoimmune disease are collected in the next section). (Check all that apply),1, Other  ,checkbox
+FULLSURVEY,covid_treat_notes,Additional information regarding COVID-19 medication treatment:Please DO NOT include any patient or family names or other direct identifiers (may include dates).,,[Additional information regarding COVID-19 medication treatment:Please DO NOT include any patient or family names or other direct identifiers (may include dates).],notes
+FULLSURVEY,HOSTYPE,Hospitalization type,1, Prolonged ED stay ,select
+FULLSURVEY,HOSTYPE,Hospitalization type,2, Regular care hospital ward or department ,select
+FULLSURVEY,HOSTYPE,Hospitalization type,3, Intensive care unit (ICU) ,select
+FULLSURVEY,HOSTYPE,Hospitalization type,4, Rehabilitation or convalescent care hospital  ,select
+FULLSURVEY,HOSPSTDT,Start Date,,[Start Date],Date Box
+FULLSURVEY,HOSPSPDT,End Date,,[End Date],Date Box
+FULLSURVEY,HOSPROC___1,Please indicate if the patient received any of the following medical treatments or procedures:,1, Supplemental oxygen ,checkbox
+FULLSURVEY,HOSPROC___ 2,Please indicate if the patient received any of the following medical treatments or procedures:,1, Non-invasive ventilation (e.g. CPAP,checkbox
+FULLSURVEY,HOSPROC___ 3,Please indicate if the patient received any of the following medical treatments or procedures:,1, Mechanical ventilation ,checkbox
+FULLSURVEY,HOSPROC___ 4,Please indicate if the patient received any of the following medical treatments or procedures:,1, Chest tubes ,checkbox
+FULLSURVEY,HOSPROC___ 5,Please indicate if the patient received any of the following medical treatments or procedures:,1, Central lines ,checkbox
+FULLSURVEY,HOSPROC___ 6,Please indicate if the patient received any of the following medical treatments or procedures:,1, ECMO ,checkbox
+FULLSURVEY,HOSPROC___ 7,Please indicate if the patient received any of the following medical treatments or procedures:,1, Dialysis ,checkbox
+FULLSURVEY,HOSPROC___ 8,Please indicate if the patient received any of the following medical treatments or procedures:,1, Plasma exchange ,checkbox
+FULLSURVEY,HOSPROC___ 9,Please indicate if the patient received any of the following medical treatments or procedures:,1, RBC transfusions or other blood products ,checkbox
+FULLSURVEY,HOSPROC___ 98,Please indicate if the patient received any of the following medical treatments or procedures:,1, Other significant or invasive treatments of procedures  ,checkbox
+FULLSURVEY,DOCSNOTE,Other treatment notes:Please DO NOT include any patient names or other direct identifiers (may include dates).,,[Other treatment notes:Please DO NOT include any patient names or other direct identifiers (may include dates).],notes
+FULLSURVEY,PRIMDISE___1,Primary rheumatic/autoimmune diagnosis(es),1, Juvenile Idiopathic Arthritis ,checkbox
+FULLSURVEY,PRIMDISE___ 2,Primary rheumatic/autoimmune diagnosis(es),1, Rheumatoid Arthritis ,checkbox
+FULLSURVEY,PRIMDISE___ 3,Primary rheumatic/autoimmune diagnosis(es),1, Systemic Lupus Erythematosus (SLE) or Mixed Connective Tissue Disease (MCTD) ,checkbox
+FULLSURVEY,PRIMDISE___ 4,Primary rheumatic/autoimmune diagnosis(es),1, Juvenile Inflammatory Myopathies,checkbox
+FULLSURVEY,PRIMDISE___ 5,Primary rheumatic/autoimmune diagnosis(es),1, Anti-phospholipid antibody syndrome ,checkbox
+FULLSURVEY,PRIMDISE___ 6,Primary rheumatic/autoimmune diagnosis(es),1, Autoimmune brain disease,checkbox
+FULLSURVEY,PRIMDISE___ 7,Primary rheumatic/autoimmune diagnosis(es),1, Autoimmune eye disease (Primary,checkbox
+FULLSURVEY,PRIMDISE___ 8,Primary rheumatic/autoimmune diagnosis(es),1, Behcet's disease ,checkbox
+FULLSURVEY,PRIMDISE___ 9,Primary rheumatic/autoimmune diagnosis(es),1, Chronic nonbacterial osteomyelitis (CNO) / Chronic recurring multifocal osteomyelitis (CRMO) ,checkbox
+FULLSURVEY,PRIMDISE___ 17,Primary rheumatic/autoimmune diagnosis(es),1, Genetic vasculopathies,checkbox
+FULLSURVEY,PRIMDISE___ 10,Primary rheumatic/autoimmune diagnosis(es),1, IgG4-related disease ,checkbox
+FULLSURVEY,PRIMDISE___ 21,Primary rheumatic/autoimmune diagnosis(es),1, Inflammatory bowel disease,checkbox
+FULLSURVEY,PRIMDISE___ 15,Primary rheumatic/autoimmune diagnosis(es),1, Localized Scleroderma ,checkbox
+FULLSURVEY,PRIMDISE___ 11,Primary rheumatic/autoimmune diagnosis(es),1, Periodic fever syndromes and autoinflammatory diseases,checkbox
+FULLSURVEY,PRIMDISE___ 12,Primary rheumatic/autoimmune diagnosis(es),1, Primary Immune Deficiency syndromes with rheumatic/autoimmune manifestations,checkbox
+FULLSURVEY,PRIMDISE___ 13,Primary rheumatic/autoimmune diagnosis(es),1, Primary Sjogren's syndrome ,checkbox
+FULLSURVEY,PRIMDISE___ 14,Primary rheumatic/autoimmune diagnosis(es),1, Sarcoidosis ,checkbox
+FULLSURVEY,PRIMDISE___ 20,Primary rheumatic/autoimmune diagnosis(es),1, Systemic sclerosis ,checkbox
+FULLSURVEY,PRIMDISE___ 16,Primary rheumatic/autoimmune diagnosis(es),1, Vasculitis,checkbox
+FULLSURVEY,PRIMDISE___ 18,Primary rheumatic/autoimmune diagnosis(es),1, Overlap or undifferentiated rheumatic connective tissue diseases ,checkbox
+FULLSURVEY,PRIMDISE___ 98,Primary rheumatic/autoimmune diagnosis(es),1, Other  ,checkbox
+FULLSURVEY,PRIMDISE_SPY,Specify: other primary rheumatic/autoimmune diagnosis,,[Specify: other primary rheumatic/autoimmune diagnosis],text
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,1, Systemic arthritis ,radio
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,2, Oligoarticular JIA ,radio
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,3, Polyarticular JIA ,radio
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,5, Psoriatic arthritis ,radio
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,6, Enthesitis related arthritis ,radio
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,7, Undifferentiated arthritis ,radio
+FULLSURVEY,JIACAT,Which subtype of JIA does the patient have?,99, Unsure  ,radio
+FULLSURVEY,RFFACTOR,RF positive (or CCP positive) Polyarticular JIA?,1, Yes ,radio
+FULLSURVEY,RFFACTOR,RF positive (or CCP positive) Polyarticular JIA?,0, No ,radio
+FULLSURVEY,RFFACTOR,RF positive (or CCP positive) Polyarticular JIA?,99, Unsure  ,radio
+FULLSURVEY,SJIALD___1,Please indicate if the patient has experienced sJIA-associated lung disease:,1, Interstitial lung disease (ILD) ,checkbox
+FULLSURVEY,SJIALD___ 2,Please indicate if the patient has experienced sJIA-associated lung disease:,1, Pulmonary alveolar proteinosis (PAP) ,checkbox
+FULLSURVEY,SJIALD___ 3,Please indicate if the patient has experienced sJIA-associated lung disease:,1, Pulmonary arterial hypertensionâ€© (PAH) ,checkbox
+FULLSURVEY,SJIALD___ 98,Please indicate if the patient has experienced sJIA-associated lung disease:,1, Other ,checkbox
+FULLSURVEY,SJIALD___ 99,Please indicate if the patient has experienced sJIA-associated lung disease:,1, Unsure  ,checkbox
+FULLSURVEY,SJIALDOTH_SPY,Specify other sJIA lung disease,,[Specify other sJIA lung disease],text
+FULLSURVEY,OCULAR,Does the patient have a history of any autoimmune ocular involvement?,1, Yes ,radio
+FULLSURVEY,OCULAR,Does the patient have a history of any autoimmune ocular involvement?,0, No ,radio
+FULLSURVEY,OCULAR,Does the patient have a history of any autoimmune ocular involvement?,99, Unsure  ,radio
+FULLSURVEY,OCULARDX___1,What is the ocular diagnosis? (Check all that apply) ,1, Uveitis ,checkbox
+FULLSURVEY,OCULARDX___ 5,What is the ocular diagnosis? (Check all that apply) ,1, Scleritis ,checkbox
+FULLSURVEY,OCULARDX___ 6,What is the ocular diagnosis? (Check all that apply) ,1, Retinal vasculitis ,checkbox
+FULLSURVEY,OCULARDX___ 98,What is the ocular diagnosis? (Check all that apply) ,1, Other ,checkbox
+FULLSURVEY,OCULARDX___ 99,What is the ocular diagnosis? (Check all that apply) ,1, Unsure  ,checkbox
+FULLSURVEY,UVETYP___1,Specify uveitis subcategory: (Check all that apply) ,1, Anterior ,checkbox
+FULLSURVEY,UVETYP___ 2,Specify uveitis subcategory: (Check all that apply) ,1, Intermediate ,checkbox
+FULLSURVEY,UVETYP___ 3,Specify uveitis subcategory: (Check all that apply) ,1, Posterior ,checkbox
+FULLSURVEY,UVETYP___ 4,Specify uveitis subcategory: (Check all that apply) ,1, Panuveitis ,checkbox
+FULLSURVEY,UVETYP___ 99,Specify uveitis subcategory: (Check all that apply) ,1, Unknown  ,checkbox
+FULLSURVEY,OCULARDX_SPY,Specify other ocular disease,,[Specify other ocular disease],text
+FULLSURVEY,ABDCAT,Specify autoimmune brain disease type,1, Autoimmune encephalitis (antibody positive,radio
+FULLSURVEY,ABDCAT,Specify autoimmune brain disease type,2, Demyelinating disease (NMO,radio
+FULLSURVEY,ABDCAT,Specify autoimmune brain disease type,3, CNS vasculitis ,radio
+FULLSURVEY,ABDCAT,Specify autoimmune brain disease type,98, Other ,radio
+FULLSURVEY,ABDCAT,Specify autoimmune brain disease type,99, Unsure  ,radio
+FULLSURVEY,ABDCAT_OTH,Specify other autoimmune brain disease type,,[Specify other autoimmune brain disease type],text
+FULLSURVEY,SECONDARYRHEUMAUTO,,AUTHEPAT, Auto-immune hepatitis ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, AUTOITHY, Auto-immune thyroid disease ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, CELIACDS, Celiac disease ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, DEMYEDIS, Demyelinating disease ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, DIATYPE1, Diabetes - Type 1 ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, INFLBOWL, Inflammatory bowel disease ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, OROMAS, Macrophage activation syndrome (MAS) ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, NMO, Neuromyelitis Optica (NMO) ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, PSORIA, Psoriasis ,select
+FULLSURVEY,SECONDARYRHEUMAUTO,, OTAUTDIS, Other rheumatic/autoimmune disease  ,select
+FULLSURVEY,OTH2NDDISE_SPY,Specify: other secondary rheumatic/autoimmune diagnosis,,[Specify: other secondary rheumatic/autoimmune diagnosis],text
+FULLSURVEY,COMRBID___0,Non-autoimmune comorbidities (Check all that apply),1, None ,checkbox
+FULLSURVEY,COMRBID___ 19,Non-autoimmune comorbidities (Check all that apply),1, Acquired Immunodeficiency,checkbox
+FULLSURVEY,COMRBID___ 1,Non-autoimmune comorbidities (Check all that apply),1, Interstitial lung disease (e.g. NSIP,checkbox
+FULLSURVEY,COMRBID___ 2,Non-autoimmune comorbidities (Check all that apply),1, Obstructive lung disease (asthma,checkbox
+FULLSURVEY,COMRBID___ 3,Non-autoimmune comorbidities (Check all that apply),1, Other lung disease ,checkbox
+FULLSURVEY,COMRBID___ 4,Non-autoimmune comorbidities (Check all that apply),1, Diabetes Type 1 ,checkbox
+FULLSURVEY,COMRBID___ 20,Non-autoimmune comorbidities (Check all that apply),1, Diabetes,checkbox
+FULLSURVEY,COMRBID___ 22,Non-autoimmune comorbidities (Check all that apply),1, Obesity (BMI >=30) ,checkbox
+FULLSURVEY,COMRBID___ 5,Non-autoimmune comorbidities (Check all that apply),1, Morbid obesity (BMI >=40) ,checkbox
+FULLSURVEY,COMRBID___ 6,Non-autoimmune comorbidities (Check all that apply),1, Hypertension ,checkbox
+FULLSURVEY,COMRBID___ 7,Non-autoimmune comorbidities (Check all that apply),1, Cardiovascular disease,checkbox
+FULLSURVEY,COMRBID___ 8,Non-autoimmune comorbidities (Check all that apply),1, Pulmonary hypertension ,checkbox
+FULLSURVEY,COMRBID___ 9,Non-autoimmune comorbidities (Check all that apply),1, Chronic renal insufficiency or end stage renal disease ,checkbox
+FULLSURVEY,COMRBID___ 10,Non-autoimmune comorbidities (Check all that apply),1, Cancer ,checkbox
+FULLSURVEY,COMRBID___ 11,Non-autoimmune comorbidities (Check all that apply),1, Organ transplant recipient ,checkbox
+FULLSURVEY,COMRBID___ 12,Non-autoimmune comorbidities (Check all that apply),1, Immunodeficiency ,checkbox
+FULLSURVEY,COMRBID___ 13,Non-autoimmune comorbidities (Check all that apply),1, Inflammatory Bowel Disease,checkbox
+FULLSURVEY,COMRBID___ 14,Non-autoimmune comorbidities (Check all that apply),1, Liver disease ,checkbox
+FULLSURVEY,COMRBID___ 15,Non-autoimmune comorbidities (Check all that apply),1, Chronic neurological or neuromuscular disease ,checkbox
+FULLSURVEY,COMRBID___ 16,Non-autoimmune comorbidities (Check all that apply),1, Trisomy 21 ,checkbox
+FULLSURVEY,COMRBID___ 17,Non-autoimmune comorbidities (Check all that apply),1, Psychiatric condition (e.g.,checkbox
+FULLSURVEY,COMRBID___ 95,Non-autoimmune comorbidities (Check all that apply),1, Pregnancy ,checkbox
+FULLSURVEY,COMRBID___ 96,Non-autoimmune comorbidities (Check all that apply),1, Post-partum (< 6 weeks) ,checkbox
+FULLSURVEY,COMRBID___ 98,Non-autoimmune comorbidities (Check all that apply),1, Other ,checkbox
+FULLSURVEY,COMRBID___ 99,Non-autoimmune comorbidities (Check all that apply),1, Unknown  ,checkbox
+FULLSURVEY,COMOSPY,Specify other comorbidities,,[Specify other comorbidities],notes
+FULLSURVEY,SECURIBD,Have you also reported this case to the SECURE-IBD COVID-19 Registry (https://covidibd.org)?,1, Yes ,radio
+FULLSURVEY,SECURIBD,Have you also reported this case to the SECURE-IBD COVID-19 Registry (https://covidibd.org)?,0, No ,radio
+FULLSURVEY,SECURIBD,Have you also reported this case to the SECURE-IBD COVID-19 Registry (https://covidibd.org)?,99, Unsure  ,radio
+FULLSURVEY,rheum_da,Rheumatologic/autoimmune disease activity disease activity AT TIME OF COVID-19 SYMPTOM ONSET (or at recognized onset of SARS-CoV-2 infection if asymptomatic):,1, Remission ,radio
+FULLSURVEY,rheum_da,Rheumatologic/autoimmune disease activity disease activity AT TIME OF COVID-19 SYMPTOM ONSET (or at recognized onset of SARS-CoV-2 infection if asymptomatic):,2, Minimal or low disease activity ,radio
+FULLSURVEY,rheum_da,Rheumatologic/autoimmune disease activity disease activity AT TIME OF COVID-19 SYMPTOM ONSET (or at recognized onset of SARS-CoV-2 infection if asymptomatic):,3, Moderate disease activity ,radio
+FULLSURVEY,rheum_da,Rheumatologic/autoimmune disease activity disease activity AT TIME OF COVID-19 SYMPTOM ONSET (or at recognized onset of SARS-CoV-2 infection if asymptomatic):,4, Severe or high disease activity ,radio
+FULLSURVEY,rheum_da,Rheumatologic/autoimmune disease activity disease activity AT TIME OF COVID-19 SYMPTOM ONSET (or at recognized onset of SARS-CoV-2 infection if asymptomatic):,99, Unknown  ,radio
+FULLSURVEY,PHYSCORE,"Please also indicate the most recent Physician Global Disease Activity Score (PGAS) at or within 90 days before COVID-19 symptom onset, if known: Range 0 to 10 (0 = no rheumatic/autoimmune disease activity; 10 = most severe activity)",,"[Please also indicate the most recent Physician Global Disease Activity Score (PGAS) at or within 90 days before COVID-19 symptom onset, if known: Range 0 to 10 (0 = no rheumatic/autoimmune disease activity; 10 = most severe activity)]",text
+FULLSURVEY,FLARE,Did the patient experience an exacerbation or other flare of rheumatic/autoimmune disease activity during or after SARS-CoV-2 infection?,0, No rheumatic/autoimmune disease exacerbation ,radio
+FULLSURVEY,FLARE,Did the patient experience an exacerbation or other flare of rheumatic/autoimmune disease activity during or after SARS-CoV-2 infection?,1, Minor rheumatic/autoimmune disease exacerbation ,radio
+FULLSURVEY,FLARE,Did the patient experience an exacerbation or other flare of rheumatic/autoimmune disease activity during or after SARS-CoV-2 infection?,2, Significant rheumatic/autoimmune disease exacerbation ,radio
+FULLSURVEY,FLARE,Did the patient experience an exacerbation or other flare of rheumatic/autoimmune disease activity during or after SARS-CoV-2 infection?,99, Not yet known/Unknown  ,radio
+FULLSURVEY,rheum_glucocorticoids,"Was the patient taking
+ glucocorticoids of any type (e.g. prednisone, methylprednisolone) or 
+route of administration (e.g. oral, IV, intra-ocular, intra-articular), within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?",1, Yes ,radio
+FULLSURVEY,rheum_glucocorticoids,"Was the patient taking
+ glucocorticoids of any type (e.g. prednisone, methylprednisolone) or 
+route of administration (e.g. oral, IV, intra-ocular, intra-articular), within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?",0, No ,radio
+FULLSURVEY,rheum_glucocorticoids,"Was the patient taking
+ glucocorticoids of any type (e.g. prednisone, methylprednisolone) or 
+route of administration (e.g. oral, IV, intra-ocular, intra-articular), within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?",99, Unknown  ,radio
+FULLSURVEY,rheum_gluco_dose,What is the dose (prednisone equivalent) of glucorticoid at the time of COVID-19 symptom onset (or at COVID-19 diagnosis if asymptomatic):,,[What is the dose (prednisone equivalent) of glucorticoid at the time of COVID-19 symptom onset (or at COVID-19 diagnosis if asymptomatic):],Number Box (Decimal)
+FULLSURVEY,UNIT_STEROID,Units:,1, mg/day ,radio
+FULLSURVEY,UNIT_STEROID,Units:,2, mg/kg/day  ,radio
+FULLSURVEY,STEROUTE,Route:,1, Oral ,radio
+FULLSURVEY,STEROUTE,Route:,2, Intravenous ,radio
+FULLSURVEY,STEROUTE,Route:,3, Ocular ,radio
+FULLSURVEY,STEROUTE,Route:,4, Intra-articular ,radio
+FULLSURVEY,STEROUTE,Route:,5, Topical  ,radio
+FULLSURVEY,STEROUTE_ADDL,,5, Topical ,radio
+FULLSURVEY,STEROUTE_ADDL,,6, Periocular ,radio
+FULLSURVEY,STEROUTE_ADDL,,7, Intraocular  ,radio
+FULLSURVEY,rheum_glucocorticoids_stop,Was this glucocorticoid stopped or continued after COVID-19 symptom onset or after SARS-CoV-2 diagnosis (if asymptomatic)?,1, Stopped ,radio
+FULLSURVEY,rheum_glucocorticoids_stop,Was this glucocorticoid stopped or continued after COVID-19 symptom onset or after SARS-CoV-2 diagnosis (if asymptomatic)?,2, Continued ,radio
+FULLSURVEY,rheum_glucocorticoids_stop,Was this glucocorticoid stopped or continued after COVID-19 symptom onset or after SARS-CoV-2 diagnosis (if asymptomatic)?,3, Unknown  ,radio
+FULLSURVEY,USEXG,Was the dosage or frequency of administration changed?,1, Continued unchanged ,radio
+FULLSURVEY,USEXG,Was the dosage or frequency of administration changed?,2, Dosage or frequency changed ,radio
+FULLSURVEY,USEXG,Was the dosage or frequency of administration changed?,99, Unknown  ,radio
+FULLSURVEY,AEACN_STEROD,How was this changed?,2, Dose reduced ,radio
+FULLSURVEY,AEACN_STEROD,How was this changed?,3, Dose increased ,radio
+FULLSURVEY,AEACN_STEROD,How was this changed?,4, Drug interrupted or delayed ,radio
+FULLSURVEY,AEACN_STEROD,How was this changed?,99, Unknown ,radio
+FULLSURVEY,AEACN_STEROD,How was this changed?,96, Not applicable  ,radio
+FULLSURVEY,,"_________________________________________________
+",,"[_________________________________________________
+]",Rich Text
+FULLSURVEY,RTUXMAB,Did the patient ever receive rituximab?,1, Yes ,radio
+FULLSURVEY,RTUXMAB,Did the patient ever receive rituximab?,0, No ,radio
+FULLSURVEY,RTUXMAB,Did the patient ever receive rituximab?,99, Unknown  ,radio
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,0, None ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,2, Abatacept ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,3, Antifibrotics (pirfenidone,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,4, Antimalarials (including hydroxychloroquine,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,5, Apremilast ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,6, Azathioprine / 6-MP ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,7, Belimumab ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,8, Cyclophosphamide ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,26, Colchicine ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,9, Cyclosporine ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,11, Denosumab ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,12, IL-1 inhibitors (including anakinra,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,13, IL-6 inhibitors (e.g. tocilizumab,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,14, IL-12/23 inhibitors (including ustekinemab) ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,15, IL-17 inhibitors (including secukinumab,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,30, IL-23 inhibitors (including guselkumab) ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,16, IVIG ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,17, JAK inhibitors (e.g. tofacitinib,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,18, Leflunomide ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,19, Methotrexate ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,20, Mycophenolate mofetil / mycophenolic acid ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,21, Sulfasalazine ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,22, Tacrolimus ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,23, Thalidomide / lenalidomide ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,24, TNF-inhibitors (including infliximab,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,25, Steroid eye drops ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,99, Unknown ,select
+FULLSURVEY,rheum_immuno_med,Was the patient on any other immunosuppressive medications within 30 days prior to COVID-19 SYMPTOM ONSET (or prior to SARS-CoV-2 diagnosis if asymptomatic)?,98, Other  ,select
+FULLSURVEY,rheum_immuno_med_stop,Was this immunosuppressive medication stopped or continued after COVID-19 symptom onset or after SARS-CoV-2 diagnosis (if asymptomatic)?,1, Stopped ,radio
+FULLSURVEY,rheum_immuno_med_stop,Was this immunosuppressive medication stopped or continued after COVID-19 symptom onset or after SARS-CoV-2 diagnosis (if asymptomatic)?,2, Continued ,radio
+FULLSURVEY,rheum_immuno_med_stop,Was this immunosuppressive medication stopped or continued after COVID-19 symptom onset or after SARS-CoV-2 diagnosis (if asymptomatic)?,3, Unknown  ,radio
+FULLSURVEY,IMUSEXG,Was the dosage or frequency of administration changed?,1, Continued unchanged ,radio
+FULLSURVEY,IMUSEXG,Was the dosage or frequency of administration changed?,2, Dosage or frequency changed ,radio
+FULLSURVEY,IMUSEXG,Was the dosage or frequency of administration changed?,99, Unknown  ,radio
+FULLSURVEY,AEACN,How was this changed?,2, Dose reduced ,radio
+FULLSURVEY,AEACN,How was this changed?,3, Dose increased ,radio
+FULLSURVEY,AEACN,How was this changed?,4, Drug interrupted or delayed ,radio
+FULLSURVEY,AEACN,How was this changed?,99, Unknown ,radio
+FULLSURVEY,AEACN,How was this changed?,96, Not applicable  ,radio
+FULLSURVEY,other_rheummed_stop_1,,1, Yes ,radio
+FULLSURVEY,other_rheummed_stop_1,,0, No ,radio
+FULLSURVEY,other_rheummed_stop_1,,99, Unsure  ,radio
+FULLSURVEY,other_rheummed_stop_2,,1, Yes ,radio
+FULLSURVEY,other_rheummed_stop_2,,0, No ,radio
+FULLSURVEY,other_rheummed_stop_2,,99, Unsure  ,radio
+FULLSURVEY,other_rheummed_stop_3,,1, Yes ,radio
+FULLSURVEY,other_rheummed_stop_3,,0, No ,radio
+FULLSURVEY,other_rheummed_stop_3,,99, Unsure  ,radio
+FULLSURVEY,other_rheummed_stop_4,,1, Yes ,radio
+FULLSURVEY,other_rheummed_stop_4,,0, No ,radio
+FULLSURVEY,other_rheummed_stop_4,,99, Unsure  ,radio
+FULLSURVEY,AEACN_OTH_1,,1, Dose not changed ,radio
+FULLSURVEY,AEACN_OTH_1,,2, Dose reduced ,radio
+FULLSURVEY,AEACN_OTH_1,,3, Dose increased ,radio
+FULLSURVEY,AEACN_OTH_1,,4, Drug interrupted ,radio
+FULLSURVEY,AEACN_OTH_1,,5, Drug discontinued ,radio
+FULLSURVEY,AEACN_OTH_1,,99, Unknown  ,radio
+FULLSURVEY,AEACN_OTH_2,,1, Dose not changed ,radio
+FULLSURVEY,AEACN_OTH_2,,2, Dose reduced ,radio
+FULLSURVEY,AEACN_OTH_2,,3, Dose increased ,radio
+FULLSURVEY,AEACN_OTH_2,,4, Drug interrupted ,radio
+FULLSURVEY,AEACN_OTH_2,,5, Drug discontinued ,radio
+FULLSURVEY,AEACN_OTH_2,,99, Unknown  ,radio
+FULLSURVEY,AEACN_OTH_3,,1, Dose not changed ,radio
+FULLSURVEY,AEACN_OTH_3,,2, Dose reduced ,radio
+FULLSURVEY,AEACN_OTH_3,,3, Dose increased ,radio
+FULLSURVEY,AEACN_OTH_3,,4, Drug interrupted ,radio
+FULLSURVEY,AEACN_OTH_3,,5, Drug discontinued ,radio
+FULLSURVEY,AEACN_OTH_3,,99, Unknown  ,radio
+FULLSURVEY,AEACN_OTH_4,,1, Dose not changed ,radio
+FULLSURVEY,AEACN_OTH_4,,2, Dose reduced ,radio
+FULLSURVEY,AEACN_OTH_4,,3, Dose increased ,radio
+FULLSURVEY,AEACN_OTH_4,,4, Drug interrupted ,radio
+FULLSURVEY,AEACN_OTH_4,,5, Drug discontinued ,radio
+FULLSURVEY,AEACN_OTH_4,,99, Unknown  ,radio
+FULLSURVEY,ZIPCODE_1,Zip code/Postal code of residence:,,[Zip code/Postal code of residence:],text
+FULLSURVEY,RESREGON,"What was the patientâ€™s region of residence around the time of presumed novel coronavirus infection. Please DO NOT include details on smaller locales and limit your response to broader regions, e.g. county or state level, in order to protect patient privacy.",,"[What was the patientâ€™s region of residence around the time of presumed novel coronavirus infection. Please DO NOT include details on smaller locales and limit your response to broader regions, e.g. county or state level, in order to protect patient privacy.]",text
+FULLSURVEY,dem_race___1,Race/geographic origin,1, Arab ,checkbox
+FULLSURVEY,dem_race___ 10,Race/geographic origin,1, Asian ,checkbox
+FULLSURVEY,dem_race___ 2,Race/geographic origin,1, Black / African-American ,checkbox
+FULLSURVEY,dem_race___ 7,Race/geographic origin,1, Latin American ,checkbox
+FULLSURVEY,dem_race___ 9,Race/geographic origin,1, Native American / Aboriginal / 1st Nations ,checkbox
+FULLSURVEY,dem_race___ 6,Race/geographic origin,1, Pacific Islander ,checkbox
+FULLSURVEY,dem_race___ 8,Race/geographic origin,1, White ,checkbox
+FULLSURVEY,dem_race___ 98,Race/geographic origin,1, Other ,checkbox
+FULLSURVEY,dem_race___ 99,Race/geographic origin,1, Unknown or prefer not to answer  ,checkbox
+FULLSURVEY,dem_race_other,Specify Other,,[Specify Other],text
+FULLSURVEY,HISPANIC,Ethnicity,1, Hispanic ,radio
+FULLSURVEY,HISPANIC,Ethnicity,0, Not Hispanic ,radio
+FULLSURVEY,HISPANIC,Ethnicity,99, Unknown or prefer not to answer  ,radio
+FULLSURVEY,SMOKE,"Has the patient ever smoked cigarettes, used e-cigarettes, or vaped (including marijuana)?",1, Yes ,radio
+FULLSURVEY,SMOKE,"Has the patient ever smoked cigarettes, used e-cigarettes, or vaped (including marijuana)?",0, No ,radio
+FULLSURVEY,SMOKE,"Has the patient ever smoked cigarettes, used e-cigarettes, or vaped (including marijuana)?",99, Unknown  ,radio
+FULLSURVEY,CIGARETTES,Cigarettes,1, Current ,radio
+FULLSURVEY,CIGARETTES,Cigarettes,2, Prior only ,radio
+FULLSURVEY,CIGARETTES,Cigarettes,0, Never ,radio
+FULLSURVEY,CIGARETTES,Cigarettes,99, Unsure  ,radio
+FULLSURVEY,VAPING,E-cigarettes or vaping,1, Current ,radio
+FULLSURVEY,VAPING,E-cigarettes or vaping,2, Prior only ,radio
+FULLSURVEY,VAPING,E-cigarettes or vaping,0, Never ,radio
+FULLSURVEY,VAPING,E-cigarettes or vaping,99, Unsure  ,radio
+FULLSURVEY,INSURANCE___1,Insurance type (check all that apply),1, Private Health Insurance ,checkbox
+FULLSURVEY,INSURANCE___ 2,Insurance type (check all that apply),1, Medicare ,checkbox
+FULLSURVEY,INSURANCE___ 3,Insurance type (check all that apply),1, Medicaid ,checkbox
+FULLSURVEY,INSURANCE___ 4,Insurance type (check all that apply),1, Military Health Care ,checkbox
+FULLSURVEY,INSURANCE___ 5,Insurance type (check all that apply),1, State-specific Plan (not traditional Medicaid) ,checkbox
+FULLSURVEY,INSURANCE___ 6,Insurance type (check all that apply),1, Indian Health Services ,checkbox
+FULLSURVEY,INSURANCE___ 7,Insurance type (check all that apply),1, Non-US Insurance ,checkbox
+FULLSURVEY,INSURANCE___ 98,Insurance type (check all that apply),1, Other ,checkbox
+FULLSURVEY,INSURANCE___ 0,Insurance type (check all that apply),1, None  ,checkbox
+FULLSURVEY,INSURANCE_NONUS___11,Insurance type (check all that apply),1, Public insurance ,checkbox
+FULLSURVEY,INSURANCE_NONUS___ 12,Insurance type (check all that apply),1, Private insurance ,checkbox
+FULLSURVEY,INSURANCE_NONUS___ 98,Insurance type (check all that apply),1, Other ,checkbox
+FULLSURVEY,INSURANCE_NONUS___ 0,Insurance type (check all that apply),1, None  ,checkbox
+FULLSURVEY,OTHINSUR_SPY,Specify other insurance,,[Specify other insurance],text
+FULLSURVEY,lab_tests,Are there any laboratory test results available related to other infections?,,[Are there any laboratory test results available related to other infections?],yesno
+FULLSURVEY,path_flua,Influenza A,1, CONFIRMED Positive ,radio
+FULLSURVEY,path_flua,Influenza A,2, PROBABLE Positive ,radio
+FULLSURVEY,path_flua,Influenza A,3, Negative ,radio
+FULLSURVEY,path_flua,Influenza A,4, Results pending ,radio
+FULLSURVEY,path_flua,Influenza A,5, Not done ,radio
+FULLSURVEY,path_flua,Influenza A,98, Unsure  ,radio
+FULLSURVEY,path_flub,Influenza B,1, CONFIRMED Positive ,radio
+FULLSURVEY,path_flub,Influenza B,2, PROBABLE Positive ,radio
+FULLSURVEY,path_flub,Influenza B,3, Negative ,radio
+FULLSURVEY,path_flub,Influenza B,4, Results pending ,radio
+FULLSURVEY,path_flub,Influenza B,5, Not done ,radio
+FULLSURVEY,path_flub,Influenza B,98, Unsure  ,radio
+FULLSURVEY,path_coronanon19,Other coronavirus (NOT SARS-CoV-2),1, CONFIRMED Positive ,radio
+FULLSURVEY,path_coronanon19,Other coronavirus (NOT SARS-CoV-2),2, PROBABLE Positive ,radio
+FULLSURVEY,path_coronanon19,Other coronavirus (NOT SARS-CoV-2),3, Negative ,radio
+FULLSURVEY,path_coronanon19,Other coronavirus (NOT SARS-CoV-2),4, Results pending ,radio
+FULLSURVEY,path_coronanon19,Other coronavirus (NOT SARS-CoV-2),5, Not done ,radio
+FULLSURVEY,path_coronanon19,Other coronavirus (NOT SARS-CoV-2),98, Unsure  ,radio
+FULLSURVEY,path_rsv,RSV,1, CONFIRMED Positive ,radio
+FULLSURVEY,path_rsv,RSV,2, PROBABLE Positive ,radio
+FULLSURVEY,path_rsv,RSV,3, Negative ,radio
+FULLSURVEY,path_rsv,RSV,4, Results pending ,radio
+FULLSURVEY,path_rsv,RSV,5, Not done ,radio
+FULLSURVEY,path_rsv,RSV,98, Unsure  ,radio
+FULLSURVEY,path_adeno,Adenovirus,1, CONFIRMED Positive ,radio
+FULLSURVEY,path_adeno,Adenovirus,2, PROBABLE Positive ,radio
+FULLSURVEY,path_adeno,Adenovirus,3, Negative ,radio
+FULLSURVEY,path_adeno,Adenovirus,4, Results pending ,radio
+FULLSURVEY,path_adeno,Adenovirus,5, Not done ,radio
+FULLSURVEY,path_adeno,Adenovirus,98, Unsure  ,radio
+FULLSURVEY,path_respother,Other Respiratory Infection (e.g. fungal),1, CONFIRMED Positive ,radio
+FULLSURVEY,path_respother,Other Respiratory Infection (e.g. fungal),2, PROBABLE Positive ,radio
+FULLSURVEY,path_respother,Other Respiratory Infection (e.g. fungal),3, Negative ,radio
+FULLSURVEY,path_respother,Other Respiratory Infection (e.g. fungal),4, Results pending ,radio
+FULLSURVEY,path_respother,Other Respiratory Infection (e.g. fungal),5, Not done ,radio
+FULLSURVEY,path_respother,Other Respiratory Infection (e.g. fungal),98, Unsure  ,radio
+FULLSURVEY,path_bacteria,Pathogenic bacteria,1, CONFIRMED Positive ,radio
+FULLSURVEY,path_bacteria,Pathogenic bacteria,2, PROBABLE Positive ,radio
+FULLSURVEY,path_bacteria,Pathogenic bacteria,3, Negative ,radio
+FULLSURVEY,path_bacteria,Pathogenic bacteria,4, Results pending ,radio
+FULLSURVEY,path_bacteria,Pathogenic bacteria,5, Not done ,radio
+FULLSURVEY,path_bacteria,Pathogenic bacteria,98, Unsure  ,radio
+FULLSURVEY,MAS_EVAL,"Did the patient develop any features concerning for Cytokine Storm Syndrome, including MAS?",1, Yes ,radio
+FULLSURVEY,MAS_EVAL,"Did the patient develop any features concerning for Cytokine Storm Syndrome, including MAS?",0, No ,radio
+FULLSURVEY,MAS_EVAL,"Did the patient develop any features concerning for Cytokine Storm Syndrome, including MAS?",99, Unsure  ,radio
+FULLSURVEY,CRP_UN,,1, mg/dL ,radio
+FULLSURVEY,CRP_UN,,2, mg/L  ,radio
+FULLSURVEY,WBC,,,[],text
+FULLSURVEY,WBC,,,[WBC],text
+FULLSURVEY,HEMA,,,[],text
+FULLSURVEY,HEMA,,,[HEMA],text
+FULLSURVEY,PLATELET,,,[],text
+FULLSURVEY,PLATELET,,,[PLATELET],text
+FULLSURVEY,ESR,,,[],text
+FULLSURVEY,ESR,,,[ESR],text
+FULLSURVEY,ESRLULN,,,[],text
+FULLSURVEY,ESRLULN,,,[ESRLULN],text
+FULLSURVEY,CRP,,,[],text
+FULLSURVEY,CRP,,,[CRP],text
+FULLSURVEY,AST,,,[],text
+FULLSURVEY,AST,,,[AST],text
+FULLSURVEY,ALT,,,[],text
+FULLSURVEY,ALT,,,[ALT],text
+FULLSURVEY,TRIGLY,,,[],text
+FULLSURVEY,TRIGLY,,,[TRIGLY],text
+FULLSURVEY,FERRITIN,,,[],text
+FULLSURVEY,FERRITIN,,,[FERRITIN],text
+FULLSURVEY,FIBRINO,,,[],text
+FULLSURVEY,FIBRINO,,,[FIBRINO],text
+FULLSURVEY,CRPUL,,,[],text
+FULLSURVEY,CRPUL,,,[CRPUL],text
+FULLSURVEY,WBC_UN,109/L or 103/mm3,,[109/L or 103/mm3],descriptive
+FULLSURVEY,HGB_UN,g/dL,,[g/dL],descriptive
+FULLSURVEY,PLT_UN,109/L or 103/mm3,,[109/L or 103/mm3],descriptive
+FULLSURVEY,ESR_UN,mm/hour,,[mm/hour],descriptive
+FULLSURVEY,SIL2R,,,[],text
+FULLSURVEY,SIL2R,,,[SIL2R],text
+FULLSURVEY,AST_ULN,,,[],text
+FULLSURVEY,AST_ULN,,,[AST_ULN],text
+FULLSURVEY,ALT_ULN,,,[],text
+FULLSURVEY,ALT_ULN,,,[ALT_ULN],text
+FULLSURVEY,FIBRINO_UN,mg/dL,,[mg/dL],descriptive
+FULLSURVEY,FERRITIN_UN,ng/mL,,[ng/mL],descriptive
+FULLSURVEY,TRIGLY_UN,mg/dL,,[mg/dL],descriptive
+FULLSURVEY,ALT_UN,U/L,,[U/L],descriptive
+FULLSURVEY,AST_UN,U/L,,[U/L],descriptive
+FULLSURVEY,SIL2R_UN,U/mL,,[U/mL],descriptive
+FULLSURVEY,DDIMER,,,[],text
+FULLSURVEY,DDIMER,,,[DDIMER],text
+FULLSURVEY,DDIMER_UN,,1, ng/mL ,radio
+FULLSURVEY,DDIMER_UN,,2, mg/L  ,radio
+FULLSURVEY,Test,Test,1, White blood cell count (WBC) ,select
+FULLSURVEY,Test,Test,2, Absolute neutrophil count (ANC) ,select
+FULLSURVEY,Test,Test,3, Absolute lymphocyte count (ALC) ,select
+FULLSURVEY,Test,Test,4, Hemoglobin ,select
+FULLSURVEY,Test,Test,5, Hematocrit ,select
+FULLSURVEY,Test,Test,6, Platelet count ,select
+FULLSURVEY,Test,Test,7, C-reactive protein (CRP) ,select
+FULLSURVEY,Test,Test,8, Erythrocyte sedimentation rate (ESR) ,select
+FULLSURVEY,Test,Test,9, Ferritin ,select
+FULLSURVEY,Test,Test,10, Creatinine ,select
+FULLSURVEY,Test,Test,11, GFR ,select
+FULLSURVEY,Test,Test,12, AST (SGOT) ,select
+FULLSURVEY,Test,Test,13, ALT (SGPT) ,select
+FULLSURVEY,Test,Test,14, Total bilirubin ,select
+FULLSURVEY,Test,Test,15, Direct bilirubin ,select
+FULLSURVEY,Test,Test,23, D-dimer ,select
+FULLSURVEY,Test,Test,16, PT ,select
+FULLSURVEY,Test,Test,17, PTT ,select
+FULLSURVEY,Test,Test,18, INR ,select
+FULLSURVEY,Test,Test,19, C3 ,select
+FULLSURVEY,Test,Test,20, C4 ,select
+FULLSURVEY,Test,Test,21, CH50 ,select
+FULLSURVEY,Test,Test,22, IgG ,select
+FULLSURVEY,Test,Test,98, Other laboratory testing  ,select
+FULLSURVEY,OTHTST_SPY,Specify other,,[Specify other],text
+FULLSURVEY,OTHRESLT,Result,,[Result],text
+FULLSURVEY,OTHTST_UNIT,Unit,,[Unit],text
+FULLSURVEY,OTHTST_RANGE,Normal range or value,,[Normal range or value],text
+FULLSURVEY,IMAGING_SIG,"Did the patient have any significant imaging findings of COVID-19, including pertinent negatives?",1, Yes ,radio
+FULLSURVEY,IMAGING_SIG,"Did the patient have any significant imaging findings of COVID-19, including pertinent negatives?",0, No ,radio
+FULLSURVEY,IMAGING_SIG,"Did the patient have any significant imaging findings of COVID-19, including pertinent negatives?",99, Unsure  ,radio
+FULLSURVEY,IMG_MODALITY,Imaging study,1, CT scan (conventional) ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,2, High-resolution CT scan ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,3, CT-PET scan ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,4, MRI ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,5, Nuclear scan ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,6, Plain radiographs (X-rays) ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,7, Ultrasound ,select
+FULLSURVEY,IMG_MODALITY,Imaging study,98, Other imaging  ,select
+FULLSURVEY,ANTMLOC___1,Anatomic location,1, Head ,checkbox
+FULLSURVEY,ANTMLOC___ 2,Anatomic location,1, Neck ,checkbox
+FULLSURVEY,ANTMLOC___ 3,Anatomic location,1, Chest ,checkbox
+FULLSURVEY,ANTMLOC___ 4,Anatomic location,1, Abdomen ,checkbox
+FULLSURVEY,ANTMLOC___ 5,Anatomic location,1, Pelvis ,checkbox
+FULLSURVEY,ANTMLOC___ 98,Anatomic location,1, Other  ,checkbox
+FULLSURVEY,IMG_RSLT,Result,1, Normal / unremarkable ,select
+FULLSURVEY,IMG_RSLT,Result,2, Abnormal ,select
+FULLSURVEY,IMG_RSLT,Result,3, Results pending ,select
+FULLSURVEY,IMG_RSLT,Result,99, Unknown  ,select
+FULLSURVEY,IMG_NARR,Interpretation,,[Interpretation],notes
+FULLSURVEY,ASM_IMG_DESC,"Based upon the subject's severity level that you have reported, this section can be skipped. Please click 'Next' to proceed.",,Header Section,descriptive
+FULLSURVEY,rec_casenotes,Do you have any lessons or other aspects from this case to share? Please DO NOT include any patient names or other direct identifiers.,,[Do you have any lessons or other aspects from this case to share? Please DO NOT include any patient names or other direct identifiers.],notes
+FULLSURVEY,rec_followup,May we contact you about these additional notes and comments?,,[May we contact you about these additional notes and comments?],yesno
+FULLSURVEY,SURVEY_TIME,Approximately how much time (minutes) did it take you to complete the data collection for this survey?,,[Approximately how much time (minutes) did it take you to complete the data collection for this survey?],text
+FULLSURVEY,SUR_TIMESPENT,"Now that you are at the end of our survey, do you think this data collection form is:",1, Too long ,radio
+FULLSURVEY,SUR_TIMESPENT,"Now that you are at the end of our survey, do you think this data collection form is:",2, Too short ,radio
+FULLSURVEY,SUR_TIMESPENT,"Now that you are at the end of our survey, do you think this data collection form is:",3, Just about right ,radio
+FULLSURVEY,SUR_TIMESPENT,"Now that you are at the end of our survey, do you think this data collection form is:",98, Other,radio
+FULLSURVEY,TIMESPENT_SPY,"Other, specify:",,"[Other, specify:]",text
